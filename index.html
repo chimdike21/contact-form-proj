@@ -33,9 +33,25 @@
 
                 <label for="lastname"><span class="text">Last Name</span>
                   <input type="text" id="lastname" required>
-                  <p class="errtext" id="lastname-err">Tgis field is required</p>
+                  <p class="errtext" id="lastname-err">This field is required</p>
                 </label>
             </div>
+
+            <label for="email"><span class="text">Email Address</span>
+               <input type="email" name="email" id="email" required>
+               <span class="errtext" id="email-err">Please enter a valid email address</span>
+            </label>
+
+            <label for="type"><span class="text"></span>Query Type
+              <div class="column row-two">
+                  <span class="radio box"><input type="radio" name="radio" id="enquiry"><span class="customradio"></span>
+                  <span class="radio box"><input type="radio" name="radio" id="support"><span class="customradio"></span>
+              </div>
+              <span class="errtext" id="radio-err">Please selct a Query type</span>
+            </label>
+
+            <label for="message"><span class="text">Message</span>
+            </label>
         </form>
        </div>
     </main>
